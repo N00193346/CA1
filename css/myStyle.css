@@ -1,0 +1,320 @@
+p, h, a, th, td, label{
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    font-weight: 500;
+}
+
+
+.nav-link{
+    font-weight: 500;
+    color: black;
+}
+
+.nav-link:hover{
+    color:white;
+}
+
+
+
+/*Cards*/
+
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+     margin-bottom: -2px;
+}
+
+.card-title2{
+    font-size: 18px;
+    
+}
+
+.card-title3{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 20px;
+     margin-bottom: -10px;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.card-text2{
+    font-size: 18px;
+     margin-bottom: -8px;   
+   
+}
+
+
+
+.links{
+    display:flex;
+   
+}
+
+.card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.card2{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  
+   
+    
+}
+
+.title{
+    margin: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    
+}
+
+.title2{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+
+
+.card-img-top{
+    height:400px;    
+   
+}
+
+.link-text{
+    color: #5C319F;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: -2px;
+    
+   
+}
+
+.link-text2{
+    color: #5C319F;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: -2px;
+}
+
+.buttonRow{
+    text-align: right;
+}
+
+/*Rows*/
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.row1UI{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #5C319F;
+   padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*Tables*/
+
+th, td {
+    font-size: 16px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    border: 1px, 0, 0, 0 solid #999;
+    padding: 0.5rem;
+ 
+}
+
+th {
+    background-color: #5C319F;
+    color: white;
+   
+}
+
+tr{
+    background-color: #D9D9D9;
+}
+
+tr:hover{
+    background-color: #f9f5ff;
+}
+
+
+
+
+.festivals{
+    width:100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #5C319F!important;
+}
+
+.custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+  background-color: #C8FFC8; 
+}
+
+
+
+/*Buttons*/
+/*Card buttons*/
+.button {
+  background-color:#5C319F;
+  border: 1px solid ;
+  color: white;
+  font-weight: 500;
+  padding: 5px 15px;
+  text-align: center;
+ 
+  font-size: 16px;
+  margin: 15px 16px;
+  cursor: pointer;
+ border-radius: 5px;
+   
+}
+
+/*Table buttons*/
+.buttonT {
+  background-color:#5C319F;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 15px 16px;
+  cursor: pointer;
+ border-radius: 5px;
+}
+
+/*User Table buttons*/
+.buttonU {
+  background-color:#5C319F;
+  border: 1px solid white;
+  color: white;
+  padding:  5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+    font-weight: 500;
+  margin: 15px 16px;
+  cursor: pointer;
+ border-radius: 5px;
+}
+
+.buttonC {
+
+  border: 0px;
+background-color:white;
+  padding:  5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+    font-weight: 500;
+  margin: 15px 16px;
+  cursor: pointer;
+ border-radius: 5px;
+}
+
+/*Form*/
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #AAAAAA;
+  border-radius: 1px ;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus{
+    border: 0px;
+  outline: 2px solid #5C319F;     
+
+}
+
+input[type=number], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #AAAAAA;
+  border-radius: 1px ;
+  box-sizing: border-box;
+}
+
+input[type=number]:focus{
+    border: 0px;
+  outline: 2px solid #5C319F;     
+
+}
+
+
+
+
+
+/*
+.myHeroMask {
+    
+    mask-image: url(../images/festivalAttempt.svg);
+    mask-repeat: no-repeat;
+    
+}
+
+.myHero{
+    
+    height: 500px;
+    background-image: url(../images/festivalPic.jpg);
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+*/
+
+
+
